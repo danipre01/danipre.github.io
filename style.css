@@ -10,7 +10,7 @@ ul#menu li {
     background-color: #FF831C;
     border-bottom: 5px solid #54BAE2;
     display: block;
-    width: 150px;
+    width: 200px;
     height: 30px;
     margin: 2px;
     float: left; /* elementi su singola riga */
@@ -22,7 +22,7 @@ ul#menu li a {
     font-weight: bold;
     line-height: 30px;
     text-decoration: none;
-    width: 150px;
+    width: 200px;
     height: 30px;
     text-align: center;
 }
