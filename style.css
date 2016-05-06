@@ -31,12 +31,4 @@ ul#menu li.active, ul#menu li:hover {
     background-color: #54BAE2;
     border-bottom: 5px solid #FF831C;
 }
-header {
-    bgcolor="BLUE"
-    align="center"
-    color="ORANGERED"
-}
-img {
-    align="centre"
-    
-}
+
