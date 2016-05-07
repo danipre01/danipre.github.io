@@ -12,8 +12,8 @@
 }
 
 #menu li a {
-	background-color: "GOLD";
-	color: "BLUE";
+	background-color: #FFFF00;
+	color: #0000CD;
 	padding: 15px 20px;
 	text-decoration: none;
 	display: block;
