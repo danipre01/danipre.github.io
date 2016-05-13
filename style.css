@@ -49,3 +49,21 @@ marquee{
 	color: #FF0000
 	height: 30px
 }
+#slideshow {width: 580px; padding: 10px; margin: 10px auto} #slideshow input {display: none}
+#mask {width: 100%; overflow:hidden}
+#slides {background: #EEE; padding: 10px; border: 3px solid #CCC; border-radius: 5px}
+.slide_content {position: relative; width: 600%; -webkit-transition: all 800ms cubic-bezier(0.670, 0.000, 0.170, 1.000); -moz-transition: all 800ms cubic-bezier(0.670, 0.000, 0.170, 1.000); -ms-transition: all 800ms cubic-bezier(0.670, 0.000, 0.170, 1.000); -o-transition: all 800ms cubic-bezier(0.670, 0.000, 0.170, 1.000); transition: all 800ms cubic-bezier(0.670, 0.000, 0.170, 1.000)}
+#pan1:checked ~ #slides .slide_content {margin-left: 0}
+#pan2:checked ~ #slides .slide_content {margin-left: -100%}
+#pan3:checked ~ #slides .slide_content {margin-left: -200%}
+#pan4:checked ~ #slides .slide_content {margin-left: -300%}
+#pan5:checked ~ #slides .slide_content {margin-left: -400%}
+.pannello {width: 16.66%; float: left}
+#active {margin-top: 5px}
+#active label {display: inline-block; width: 13px; height: 13px; border-radius: 10px; background: #CCC; border: 2px solid #FFF; box-shadow: 0 0 2px rgba(0, 0, 0, 0.5); margin: 5px}
+#active label:hover {background: #AAA}
+#pan1:checked ~ #active label:nth-child(1),
+#pan2:checked ~ #active label:nth-child(2),
+#pan3:checked ~ #active label:nth-child(3),
+#pan4:checked ~ #active label:nth-child(4),
+#pan5:checked ~ #active label:nth-child(5) {background: #5690AD}
