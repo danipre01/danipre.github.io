@@ -70,7 +70,7 @@
      var foto = new Array(n);
      /* scrivere il path ed il nome delle foto che volere usare */
      foto[0] = "post-4008-0-87334900-1407274381.jpg";
-     foto[1] = "";
+     foto[1] = "images.jpg";
      foto[2] = "";
      foto[3] = "";
      foto[4] = "";
