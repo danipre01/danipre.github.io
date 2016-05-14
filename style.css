@@ -50,27 +50,5 @@ marquee{
 	height: 30px
 }
 
-   #slide{
-    /* parametro obbligatorio */
-    overflow:hidden;
-    /* qui potete personalizzare la dimensione , la posizione e l'aspetto */
-    width:1000%px;height:800px;
-    position:relative;
-    top:20px;left:20px;   
-    background:white;
-    box-shadow:0px 0px 5px black;
-   }
-    /* parametro obbligatorio */
-    opacity:0;
-   }
-   
-   /* gli stili definiti qui di seguito non devono essere modificati ! */
-   #slide img{
-    width:100%;height:100%;
-    position:absolute;
-    top:0px;left:0px;
-   }
-   #slide:hover p{
-    opacity:1;
-   }
+  
   
