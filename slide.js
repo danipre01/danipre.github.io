@@ -1,4 +1,4 @@
-<script>
+
     $(document).ready(function(){     
      slideshow(5,1000,5000);     
     });
@@ -83,4 +83,4 @@
        x -> la foto che si sta visualizzando
        n -> il numero totale di foto
     */
-  </script>
+
