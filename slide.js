@@ -69,11 +69,11 @@
     function fotografie(x,n){
      var foto = new Array(n);
      /* scrivere il path ed il nome delle foto che volere usare */
-     foto[0] = "http://img2.juzaphoto.com/001/shared_files/uploads/205051.jpg";
-     foto[1] = "http://www.turismo-elba.it/wp-content/uploads/2013/08/comune-portoferraio-darsena.jpg";
-     foto[2] = "http://www.tuscanypeople.com/wp-content/uploads/2014/06/Isola-dElba-03-e1434700905450.jpg";
-     foto[3] = "http://newsletter.robertademarchi.com/2016/img/ELBA.jpg";
-     foto[4] = "http://www.fontanaviaggi.com/wp-content/uploads/2016/04/elba-blu-appartamenti_1.jpg";
+     foto[0] = "post-4008-0-87334900-1407274381.jpg";
+     foto[1] = "";
+     foto[2] = "";
+     foto[3] = "";
+     foto[4] = "";
      
      return foto[x];
     }
