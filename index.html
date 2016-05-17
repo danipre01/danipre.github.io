@@ -1,9 +1,6 @@
 <html>
 <head>
-     <!-- Slider Style -->
-   <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
-   <link rel="stylesheet" href="css/slider.css" type="text/css" media="screen" />
-
+    
      <link rel="icon" src="http://www.elearning.galileicrema.it/pluginfile.php/10/user/icon/formal_white/f2?rev=107715" type="image/x-icon"/>
     <title>*ELBA*</title>
     <meta charset="utf=8">
@@ -54,77 +51,6 @@
 	</div></center>
 <br><br><br>
 
-<section id="slider">  
- 
-    <div class="flexslider">
-          <ul class="slides">
-                <li>
-                    <img src="post-4008-0-87334900-1407274381.jpg"/>
-                      
-                    <div class="flex-caption">
-                        
-                    </div>
-                </li> 
-                      
-                 
-                 
-                <li>
-                    <img src="imgres.jpg"/>
-                    <div class="flex-caption">
-                        
-                    </div>
-                </li>
-                 
-          </ul>
-    </div>
- 
-     
-    <div id="sfu-slider">
-     
-    </div>
-     
-</section> 
-<!-- jQuery -->
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.min.js">\x3C/script>')</script>
-   
-  <!-- FlexSlider -->
-  <script defer src="js/jquery.flexslider.js"></script>
-   
-  <script type="text/javascript">
-     
-    $(window).load(function(){
-      $('.flexslider').flexslider({
-        animation: "fade",
-        
-        start: function(){},            //Callback: function(slider) - Fires when the slider loads the first slide
-        before: function(){captionMoveOut();},           //Callback: function(slider) - Fires asynchronously with each slider animation
-        after: function(){captionMoveIn();},            //Callback: function(slider) - Fires after each slider animation completes
-        end: function(){},              //Callback: function(slider) - Fires when the slider reaches the last slide (asynchronous)
-        added: function(){},            //{NEW} Callback: function(slider) - Fires after a slide is added
-        removed: function(){} 
-      });
-       
-      $('.flex-caption').hide();
-       
-       $('.flex-caption').fadeIn(2000);
-    });
-     
-    function captionMoveIn() {
-        $('.flex-caption')
-        .animate({top: "35%"},0)
-        .fadeIn(2000)
-    ;};
-     
-     
-    function captionMoveOut() {
-        $('.flex-caption')
-        .animate({top: "-40%"},700)
-        .fadeOut("normal")
-         
-    ;};
-     
-  </script>
 
 </body>
 </html>
