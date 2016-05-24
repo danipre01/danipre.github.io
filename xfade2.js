@@ -1,13 +1,5 @@
 imgs = d.getElementById(‘slideshow’).getElementsByTagName(‘img’);
 setTimeout(so_xfade,3000);
-/*
-	Image Cross Fade Redux
-	Version 1.0
-	Last revision: 02.15.2006
-	steve@slayeroffice.com
-
-	Rewrite of old code found here: http://slayeroffice.com/code/imageCrossFade/index.html
-*/
 
 window.addEventListener?window.addEventListener('load',so_init,false):window.attachEvent('onload',so_init);
 
