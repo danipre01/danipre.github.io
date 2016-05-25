@@ -52,5 +52,12 @@ marquee{
 	height: 30px
 }
 
-  
+  div {
+  /* ... */
+ 
+  min-width:   3000px;
+  min-height:  2500px;
+  max-width:  3000px;
+  max-height: 2500px;
+}
   
