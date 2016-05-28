@@ -25,7 +25,7 @@ function so_init()
 	css.setAttribute('type','text/css');
 	d.getElementsByTagName('head')[0].appendChild(css);
 
-	imgs = d.getElementById('slideshow3').getElementsByTagName('img');
+	imgs = d.getElementById('slideshow5').getElementsByTagName('img');
 	for(i=1;i<imgs.length;i++) imgs[i].xOpacity = 0;
 	imgs[0].style.display = 'block';
 	imgs[0].xOpacity = .99;
