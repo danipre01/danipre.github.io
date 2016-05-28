@@ -1,1 +1,9 @@
+#slideshow5 {cursor: pointer;}
+
+#slideshow5 img {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
 
