@@ -61,17 +61,3 @@ marquee{
   max-height: 2500px;
 }
   
-div#container {
-    border: 1px solid #FF0000;
- 
-    height: 800px;
-    display: table;
-}
- 
-div#content {
-    background: #25FF00;
- 
-    display:table-cell;
-    vertical-align:middle;
-}
-    
