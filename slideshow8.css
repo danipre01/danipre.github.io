@@ -1,1 +1,9 @@
+#slideshow7 {cursor: pointer;}
+
+#slideshow7 img {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
 
