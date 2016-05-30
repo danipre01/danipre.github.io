@@ -1,0 +1,8 @@
+#slideshowprimogiorno {
+	border: 1px solid #000;
+	overflow: hidden;
+	margin: 50px auto 10px;
+	position: center;
+	width: 550px;
+	height: 350px;
+}
