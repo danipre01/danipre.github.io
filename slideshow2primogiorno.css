@@ -1,1 +1,14 @@
+#slideshowprimogiorno img {
+	width: 1000px;
+	height: 550px;
+}
 
+
+ #slideshowprimogiorno {cursor: pointer;}
+
+#slideshowprimogiorno img {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
