@@ -1,0 +1,14 @@
+#slideshowquartogiorno img {
+	width: 1000px;
+	height: 550px;
+}
+
+
+ #slideshowquartogiorno {cursor: pointer;}
+
+#slideshowquartogiorno img {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
