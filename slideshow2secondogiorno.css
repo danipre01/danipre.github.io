@@ -1,0 +1,14 @@
+#slideshowsecondogiorno img {
+	width: 1000px;
+	height: 550px;
+}
+
+
+ #slideshowsecondogiorno {cursor: pointer;}
+
+#slideshowsecondogiorno img {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
