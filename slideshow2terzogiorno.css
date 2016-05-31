@@ -6,7 +6,7 @@
 
  #slideshowterzogiorno {cursor: pointer;}
 
-#slideshowprimogiorno img {
+#slideshowterzogiorno img {
 	display: none;
 	position: absolute;
 	top: 0;
