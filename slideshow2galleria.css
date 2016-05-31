@@ -1,0 +1,14 @@
+#slideshowgalleria img {
+	width: 1000px;
+	height: 550px;
+}
+
+
+ #slideshowgalleria {cursor: pointer;}
+
+#slideshowgalleria img {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
